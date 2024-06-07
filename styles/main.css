@@ -1,0 +1,41 @@
+
+/* GLOBAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* TYPOGRAPHY STYLES */
+h1 {
+  font-family: "TitleFont", serif;
+  font-size: 42px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+h3 {
+  font-family: "SubTitleFont", serif;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: solid 10px #f1f1f1;
+  letter-spacing: -1px;
+}
+
+/* IMAGE GALLERY STYLES */
+#gallery {
+  display: flow-root;
+}
+img {
+  width: 30%;
+  float: left;
+  margin: 1.66%;
+  transition: all 0.5s
+}
+img:hover {
+  transform: scale(1.2);
+}
+
+/*** ALL COPYRIGHT FREE IMAGES USED FROM WWW.UNSPLASH.COM ****/
